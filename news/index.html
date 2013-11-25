@@ -5,7 +5,6 @@
     <title>Women In Medicine</title>
     <!--links to jquery-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -14,7 +13,7 @@
     <!-- Styles -->
     <link href="../css/style.css" rel="stylesheet">
     
-    <script src="js/tags.js"></script>
+    <script src="../js/tags.js"></script>
 
     <style type="text/css">
       body {
@@ -38,7 +37,8 @@
   </head>
 
   <body>
-     <div class="navbar navbar-inverse navbar-fixed-top">
+
+      <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <button type="button" class="btn btn-navbar" data-toggle navbar="collapse" data-target=".nav-collapse">
@@ -56,19 +56,20 @@
                   <li><a href="#">Professional Opportunities</a></li>
                   <li><a href="../mentorship/index.html">Mentorship</a></li>
                   <li><a href="#">Recruitment Resources</a></li>
-                  <li><a href="../medlinks/index.html">Medical Institutions</a></li>
+                  <li><a href="../medlinks/index.html">Links to Medical Institutions</a></li>
                   <li><a href="#">Moving to Pittsburgh</a></li>
                 </ul>
               </li>
-              <li class="active"><a href="../events/index.html" >Events</a></li>
+              <li class="active"><a href="../events/index.html">Events</a></li>
               
               <li class="active"><a href="../blog/index.html">Blog</a>
                 
               </li>
               <li class="active">
-                <a href="../forum/index.html">Forum</a>                
+                <a href="../forum/index.html">Forum</a>
+                
               </li>
-              <li class="active">
+               <li class="active">
                 <a href="../news/index.html">News</a>
                 
               </li>
@@ -83,55 +84,72 @@
       </div>
     </div>
 
-    <div class="container">
-      
-      <h3>Member benefits</h3>
-        <p>By becoming a member of Women in Medicine, you will become a part of a support community. You will be able to attend company gatherings that include guest speakers and social events!</p>
-        <h3>Qualifications</h3>
-          <p>In order to become a member, you must be living in the Pittsburgh area. In addition, you must be either a medical student or professional a part of the Allegheny Health Network.</p>
-          <h3>Become a member</h3>
-            <p>If you have met the qualifications, please fill out the form below.</p>
+<!--NEWS-->
 
-           
-      <form role="form">
-        <div class="form-group">
-          <label>Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-        </div>
-        <div class="form-group">
-          <label>Username</label>
-          <input type="text" class="form-control" id="exampleInputtext1" placeholder="Enter username">
-        </div>
+     <div class="featured-news span12">
+      <h1>News</h1>
+      <div class="News-image">
+        <img src="../img/couples.jpg" alt="hellmouth">
+     </div>
+     <div class="Featured-Post">
+      <a href="#">10/4 Speaker Series with Michelle Yu</a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. </p>
+      <div class="btn">Read More</div>
+     </div>
+   </div>
+
+   <!--News Content-->
+
+    <div class="Recent">
+      <h3>Recent News</h3>
+    <!--Tags area-->
+      <div class="Tags span1">
+        <ul>
+          <li><a href="#" class="tag all">All</a></li>
+          <li><a href="#" class="tag women">#women</a></li>
+          <li><a href="#" class="tag doctors">#doctors</a></li>
+          <li><a href="#" class="tag life">#life</a></li>
+        </ul>
+      </div>
+
+      <!--News Content-->
+      <div class="Stories span9">
+        <div class="feature life">
+          <div class="circle-icons">
+            <img src="../img/racial.png">
           
-        <div class="form-group">
-          <label>Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <a href="#">10/13 Benefit Dinner</a>
+          </div>
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. #life</p>
+            <div class="btn">Read More</div>
+          </div>
+
+      <div class="feature women doctors">
+        <div class="circle-icons">
+            <img src="../img/selfcare.png">
+              <a href="#">10/18 Non-Profit Talk</a>
         </div>
-       <button type="submit" class="btn btn-default"> <a href="../userjoin/index.html">Join</a></button>
-      </form>
-  
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. #women # doctors</p>
+              <div class="btn">Read More</div>
+          </div>
+      
+      <div class="feature women">
+        <div class="circle-icons">
+            <img src="../img/ivy.jpg">
+              <a href="#">11/11 Yoga at WiM</a>
+        </div>
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. #women </p>
+              <div class="btn">Read More</div>
+          </div>
 
-
+        </div>
+      </div>
+  </div>
 </div>
-<br><br><br><br>
-<!-- javascript
-    ================================================== -->
 
-  <script src="../js/jquery.js"></script>
-    <script src="../js/transition.js"></script>
-    <script src="../js/alert.js"></script>
-    <script src="../js/modal.js"></script>
-    <script src="../js/dropdown.js"></script>
-    <script src="../js/scrollspy.js"></script>
-    <script src="../js/tab.js"></script>
-    <script src="../js/tooltip.js"></script>
-    <script src="../js/popover.js"></script>
-    <script src="../js/button.js"></script>
-    <script src="../js/collapse.js"></script>
-    <script src="../js/typehead.js"></script>
-    <script src="../js/toggle.js"></script>
-
-    <div class="navbar navbar-inverse navbar-bottom">
+<div class="navbar navbar-inverse navbar-bottom">
       
         <div class="container">
           
@@ -156,17 +174,21 @@
               <p><a href="#">Legal</a></p>
               <p><a href="#">Conditions</a></p>
               </li>
-<li>
+            <li>
              <h6> <a href="www.twitter.com"><img src="../img/twitter.png"></a>
-    <a href="www.facebook.com"><img src="../img/facebook.png"></a>
-    <a href="www.wordpress.com"><img src="../img/wordpress.png"></a></h6>
-  </li>
+           <a href="www.facebook.com"><img src="../img/facebook.png"></a>
+         <a href="www.wordpress.com"><img src="../img/wordpress.png"></a></h6>
+        </li>
             </ul>
           
           </div>
         </div>
     </div>
+    
+    
+    
 
+      
 
-</body>
+ </body>
 </html>
